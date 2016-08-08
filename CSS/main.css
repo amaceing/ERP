@@ -1,0 +1,16 @@
+.jumbotron-color {
+	background-color: #F1F0FF;
+	color: #8C489F;
+}
+
+.lato-light-italic {
+	font-family: 'Lato' !important;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.pacifico-normal {
+	font-family: 'Pacifico' !important;
+	font-style: normal;
+	font-weight: 400;
+}
