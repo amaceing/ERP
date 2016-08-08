@@ -21,7 +21,11 @@ body {
 	font-weight: 400;
 }
 
-.nav-tabs>li>a {
+a {
+	color: #8C489F;
+}
+
+a:hover {
 	color: #8C489F;
 }
 
