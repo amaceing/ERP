@@ -12,6 +12,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,700|Pacifico' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="CSS/main.css" class="stylesheet">
+		<script src="JS/main.js"></script>
 	</head>
 	<body>
 		<div class="jumbotron text-center jumbotron-color">
@@ -20,11 +21,11 @@
 		</div>
 		<div class="container">
 			<ul class="nav nav-pills nav-justified">
-				<li role="presentation" class="nav-tabs-active"><a href="#">About</a></li>
-			  	<li role="presentation"><a href="#">Graduation</a></li>
-			  	<li role="presentation"><a href="#">Pregnancy</a></li>
-			  	<li role="presentation"><a href="#">Family</a></li>
-			  	<li role="presentation"><a href="#">Infant</a></li>
+				<li id="about" role="presentation" class="nav-tabs-active" onclick="addClass(this.id, 'nav-tabs-active');"><a href="#">About</a></li>
+			  	<li id="grad" role="presentation" onclick="addClass(this.id, 'nav-tabs-active')"><a href="#">Graduation</a></li>
+			  	<li id="preg" role="presentation" onclick="addClass(this.id, 'nav-tabs-active')"><a href="#">Pregnancy</a></li>
+			  	<li id="family" role="presentation" onclick="addClass(this.id, 'nav-tabs-active')"><a href="#">Family</a></li>
+			  	<li id="infant" role="presentation" onclick="addClass(this.id, 'nav-tabs-active')"><a href="#">Infant</a></li>
 			</ul>
 		</div>
 	</body>
