@@ -9,10 +9,25 @@ body {
 	color: #8C489F;
 }
 
+.title-purple {
+	color: #8C489F;
+}
+
 .lato-light-italic {
 	font-family: 'Lato' !important;
 	font-style: italic;
 	font-weight: 300;
+}
+
+.lato-normal {
+	font-family: 'Lato' !important;
+	font-style: normal;
+}
+
+.lato-bold {
+	font-family: 'Lato' !important;
+	font-style: normal;
+	font-weight: 700;
 }
 
 .pacifico-normal {
@@ -21,14 +36,16 @@ body {
 	font-weight: 400;
 }
 
-a {
-	color: #8C489F;
+.page-header {
+	text-align: center;
 }
 
-a:hover {
-	color: #8C489F;
+.form {
+	width: 50%;
+	margin: auto;
 }
 
-.nav-tabs-active {
-	background-color: #F1F0FF;
+.book-button {
+	background-color: #8C489F;
+	color: #FFFFFF;
 }
